@@ -6,7 +6,7 @@
 # Prints an age category (infant, child, teenager, or adult) based on an age supplied by the user.
 
 # Prompt the user for an age and store it in the age variable.
-age = input('Input a person's age in years: ')
+age = input('Input a person\'s age in years: ')
 
 # Determine which category age fits into, and display the appropriate category onscreen.
 if age <= 1:
