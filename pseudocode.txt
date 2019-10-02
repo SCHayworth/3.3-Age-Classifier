@@ -1,0 +1,16 @@
+Write a program that asks the user to enter a person's age. The program should display a message indicating whether the person is an infant, a child, a teenage, or an adult. Following are the guidelines for each person:
+
+    1 year old or less, he or she is an infant
+    Older than 1 year, but younger than 13 years, he or she is a child
+    At least 13 years old, but less than 20 years old, he or she is a teenager
+    At least 20 years old, he or she is an adult.
+    
+1.  Prompt user for an age in years and store it.
+2.  IF age <= 1
+      Display "Infant"
+3.  ELSE IF age > 1 and age < 13
+      Display "Child"
+4.  ELSE IF age >= 13 and age < 20
+      Display "Teenager"
+5.  ELSE
+      Display "Adult"
